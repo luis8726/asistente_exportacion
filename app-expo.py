@@ -26,7 +26,7 @@ if banner_path.exists():
     st.image(str(banner_path), use_container_width=True)
 
 st.title(APP_TITLE)
-st.caption("Asistente KA para gestión de exportación de vinos desde Argentina (con búsqueda en tu Vector Store).")
+#st.caption("Asistente KA para gestión de exportación de vinos desde Argentina (con búsqueda en tu Vector Store).")
 
 # --- Validaciones ---
 if not API_KEY:
